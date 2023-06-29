@@ -1,0 +1,12 @@
+Build instructions
+==================
+
+::
+
+   python3 -m venv .venv
+   source .venv/bin/activate
+   python3 -m pip install sphinx
+
+   make -C docs html
+
+Find result in `docs/build/html/index.html`
