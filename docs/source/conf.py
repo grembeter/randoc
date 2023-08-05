@@ -6,17 +6,17 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'randoc'
-copyright = '2023, Grygorii Tertychnyi'
-author = 'Grygorii Tertychnyi'
-release = '0.1'
+project = "randoc"
+copyright = "2023, Grygorii Tertychnyi"
+author = "Grygorii Tertychnyi"
+release = "0.1"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = []
 
-templates_path = ['_templates']
+templates_path = ["_templates"]
 exclude_patterns = []
 latex_engine = "xelatex"
 
@@ -24,10 +24,10 @@ latex_engine = "xelatex"
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'haiku'
-html_static_path = ['_static']
+html_theme = "renku"
+html_static_path = ["_static"]
 html_css_files = [
-    'css/roles.css'
+    "css/roles.css"
 ]
 
 rst_prolog = """
