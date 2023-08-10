@@ -1,17 +1,18 @@
-.. |+| unicode:: U+224B
-.. |/| unicode:: U+2248
-.. |-| unicode:: U+223C
+.. |+| replace:: :material-regular:`hotel_class;1em;sd-text-success`
+.. |/| replace:: :material-regular:`star;1em;sd-text-success`
+.. |-| replace:: :material-regular:`star_half;1em;sd-text-success`
 
 =====
 Книги
 =====
 
-Список прочитаних книг.
+.. tags:: books
 
-* |+| гарна книга, викликає захоплення
-* |/| гарна книга
-* |-| існують книги трохи кращі за цю
+:material-regular:`done_all;1em;sd-text-success` Список прочитаних книг:
 
+| |+| книга викликає захоплення
+| |/| гарна книга
+| |-| звичайна книга
 
 2023
 ====
