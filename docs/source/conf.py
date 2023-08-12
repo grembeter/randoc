@@ -20,7 +20,7 @@ latex_engine = "xelatex"
 html_theme = "pydata_sphinx_theme"
 html_static_path = ["_static"]
 html_css_files = [
-    "css/roles.css"
+    "css/custom.css"
 ]
 html_short_title = html_title = "RanDoc"
 html_context = {
