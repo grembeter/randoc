@@ -17,7 +17,7 @@ templates_path = ["_templates"]
 exclude_patterns = []
 latex_engine = "xelatex"
 
-html_theme = "pydata_sphinx_theme"
+html_theme = "sphinx_book_theme"
 html_static_path = ["_static"]
 html_css_files = [
     "css/custom.css"
@@ -27,23 +27,14 @@ html_context = {
     "default_mode": "light"
 }
 html_theme_options = {
-    "show_toc_level": 2,
-    "icon_links": [
-        {
-            "name": "GitHub",
-            "url": "https://github.com/grembeter/randoc",
-            "icon": "fa-brands fa-square-github",
-            "type": "fontawesome"
-        }
-    ],
-    "footer_start": ["copyright"],
-    "footer_end": ["sphinx-version"]
+    "repository_provider": "github",
+    "repository_url": "https://github.com/grembeter/randoc",
+    "repository_branch": "gh-pages",
+    "use_source_button": True,
+    "use_repository_button": True,
+    "path_to_docs": "_sources/",
+    "show_toc_level": 20,
+    "show_navbar_depth": 2
 }
 
 source_suffix = ".rst"
-
-rst_prolog = """
-.. include:: <s5defs.txt>
-.. default-role::
-
-"""

@@ -1,3 +1,7 @@
 html[data-theme="light"] {
     --pst-color-primary: #203e8c;
 }
+
+code {
+    color: #4197b2;
+}
