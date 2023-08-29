@@ -16,19 +16,19 @@ beautifulsoup4==4.12.2
     # via pydata-sphinx-theme
 certifi==2023.7.22
     # via requests
-cfgv==3.3.1
+cfgv==3.4.0
     # via pre-commit
 charset-normalizer==3.2.0
     # via requests
 distlib==0.3.7
     # via virtualenv
-docutils==0.19
+docutils==0.20.1
     # via
     #   pydata-sphinx-theme
     #   sphinx
-filelock==3.12.2
+filelock==3.12.3
     # via virtualenv
-identify==2.5.26
+identify==2.5.27
     # via pre-commit
 idna==3.4
     # via requests
@@ -49,7 +49,7 @@ platformdirs==3.10.0
 pre-commit==3.3.3
     # via sphinx-tags
 pydata-sphinx-theme==0.13.3
-    # via sphinx-book-theme
+    # via -r requirements.in
 pygments==2.16.1
     # via
     #   accessible-pygments
@@ -63,10 +63,9 @@ snowballstemmer==2.2.0
     # via sphinx
 soupsieve==2.4.1
     # via beautifulsoup4
-sphinx==6.2.1
+sphinx==7.2.4
     # via
     #   pydata-sphinx-theme
-    #   sphinx-book-theme
     #   sphinx-copybutton
     #   sphinx-design
     #   sphinx-tags
@@ -75,31 +74,29 @@ sphinx==6.2.1
     #   sphinxcontrib-htmlhelp
     #   sphinxcontrib-qthelp
     #   sphinxcontrib-serializinghtml
-sphinx-book-theme==1.0.1
-    # via -r requirements.in
 sphinx-copybutton==0.5.2
     # via -r requirements.in
 sphinx-design==0.5.0
     # via -r requirements.in
 sphinx-tags==0.2.1
     # via -r requirements.in
-sphinxcontrib-applehelp==1.0.6
+sphinxcontrib-applehelp==1.0.7
     # via sphinx
-sphinxcontrib-devhelp==1.0.4
+sphinxcontrib-devhelp==1.0.5
     # via sphinx
-sphinxcontrib-htmlhelp==2.0.3
+sphinxcontrib-htmlhelp==2.0.4
     # via sphinx
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
-sphinxcontrib-qthelp==1.0.5
+sphinxcontrib-qthelp==1.0.6
     # via sphinx
-sphinxcontrib-serializinghtml==1.1.7
+sphinxcontrib-serializinghtml==1.1.9
     # via sphinx
 typing-extensions==4.7.1
     # via pydata-sphinx-theme
 urllib3==2.0.4
     # via requests
-virtualenv==20.24.2
+virtualenv==20.24.3
     # via pre-commit
 
 # The following packages are considered to be unsafe in a requirements file:

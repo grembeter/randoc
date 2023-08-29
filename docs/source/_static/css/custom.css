@@ -1,7 +1,26 @@
 html[data-theme="light"] {
+    --pst-color-link: #459db9;
     --pst-color-primary: #203e8c;
 }
 
+a:visited {
+    color: var(--pst-color-link);
+}
+
 code {
-    color: #4197b2;
+    color: #459db9;
+}
+
+.bd-main .bd-content .bd-article-container {
+    max-width: 100%;            /* default is 60em */
+}
+
+.bd-page-width {
+    max-width: 100%;            /* default is 88rem */
+}
+
+blockquote p.attribution {
+    margin-bottom: 0;
+    margin-right: 10%;
+    text-align: right;
 }

@@ -1,6 +1,8 @@
 .. |+| replace:: :material-regular:`hotel_class;1em;sd-text-success`
 .. |/| replace:: :material-regular:`star;1em;sd-text-success`
 .. |-| replace:: :material-regular:`star_half;1em;sd-text-success`
+.. |nbsp| unicode:: 0xA0
+   :trim:
 
 #####
 Книги
@@ -8,13 +10,13 @@
 
 .. tags:: books
 
-.. pull-quote::
+.. epigraph::
 
    Читання книг стимулює розумову діяльність людини, покращує пам'ять і підвищує творчий
    потенціал. Книжка може надихнути на створення проєктів, ідей або отримання будь-якого іншого
    цінного досвіду.
 
-   -- Жордін Кормьєр
+   --- |nbsp| Жордін Кормьєр
 
 | |+| книга викликає захоплення
 | |/| гарна книга
