@@ -22,11 +22,8 @@ html_css_files = [
     "css/custom.css"
 ]
 html_context = {
-   "default_mode": "dark"
+    "default_mode": "dark",
 }
-# html_sidebars = {
-#     "**": ["sidebar-nav-bs"]
-# }
 html_theme_options = {
     "footer_end": ["sphinx-version"],
     "footer_start": ["copyright"],

@@ -1,10 +1,19 @@
 html[data-theme="light"] {
-    --pst-color-link: #459db9;
+    --pst-color-link: #0090ed;
     --pst-color-primary: #203e8c;
+}
+
+html[data-theme="dark"] {
+    --pst-color-link: #0090ed;
+    --pst-color-primary: #459db9;
 }
 
 a:visited {
     color: var(--pst-color-link);
+}
+
+a.headerlink {
+    color: var(--pst-color-primary);
 }
 
 code {
