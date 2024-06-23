@@ -1,0 +1,13 @@
+# -*- mode: sh -*-
+
+if [ -z "${VIRTUAL_ENV:+x}" ]; then
+    echo " ::::: setup new virtual environment"
+    rm -rf "$PWD"/.venv "$PWD"/.nox
+    python3 -m venv "$PWD"/.venv --prompt="randoc"
+    . "$PWD"/.venv/bin/activate
+    python3 -m pip install nox
+    echo " ::: virtual environment is ready"
+fi
+
+nox -l
+nox -s html

@@ -24,6 +24,9 @@ html_css_files = [
 html_context = {
     "default_mode": "dark",
 }
+html_sidebars = {
+    "books": [],
+}
 html_theme_options = {
     "footer_end": ["sphinx-version"],
     "footer_start": ["copyright"],

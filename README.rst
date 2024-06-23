@@ -9,10 +9,6 @@ Build instructions
 
 ::
 
-   python3 -m venv .venv
-   source .venv/bin/activate
-   python3 -m pip install -r requirements.txt
-
-   make -C docs html
+   source ./build-env
 
 Find result in `docs/build/html/index.html`

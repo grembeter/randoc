@@ -19,11 +19,6 @@ from scratch:
 
    git clone https://github.com/grembeter/randoc
    cd randoc
-   python3 -m venv .venv
-   source .venv/bin/activate
-   python3 -m pip install -r requirements.txt
-
-   make -C docs/ html
-   make -C docs/ latexpdf
+   source ./build-env
 
 Open :file:`docs/build/html/index.html` page in browser.
