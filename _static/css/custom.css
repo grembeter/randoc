@@ -1,0 +1,35 @@
+html[data-theme="light"] {
+    --pst-color-link: #0090ed;
+    --pst-color-primary: #203e8c;
+}
+
+html[data-theme="dark"] {
+    --pst-color-link: #0090ed;
+    --pst-color-primary: #459db9;
+}
+
+a:visited {
+    color: var(--pst-color-link);
+}
+
+a.headerlink {
+    color: var(--pst-color-primary);
+}
+
+code {
+    color: #459db9;
+}
+
+.bd-main .bd-content .bd-article-container {
+    max-width: 100%;            /* default is 60em */
+}
+
+.bd-page-width {
+    max-width: 100%;            /* default is 88rem */
+}
+
+blockquote p.attribution {
+    margin-bottom: 0;
+    margin-right: 10%;
+    text-align: right;
+}
