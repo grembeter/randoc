@@ -1,3 +1,5 @@
+.. _sphx_tag_books:
+
 My tags: books
 ##############
 

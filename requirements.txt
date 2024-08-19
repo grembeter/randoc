@@ -6,7 +6,7 @@
 #
 accessible-pygments==0.0.5
     # via pydata-sphinx-theme
-alabaster==0.7.16
+alabaster==1.0.0
     # via sphinx
 babel==2.16.0
     # via
@@ -34,7 +34,7 @@ packaging==24.1
     # via
     #   pydata-sphinx-theme
     #   sphinx
-pydata-sphinx-theme==0.15.3
+pydata-sphinx-theme==0.15.4
     # via -r requirements.in
 pygments==2.18.0
     # via
@@ -47,7 +47,7 @@ snowballstemmer==2.2.0
     # via sphinx
 soupsieve==2.6
     # via beautifulsoup4
-sphinx==7.4.7
+sphinx==8.0.2
     # via
     #   pydata-sphinx-theme
     #   sphinx-copybutton
@@ -55,9 +55,9 @@ sphinx==7.4.7
     #   sphinx-tags
 sphinx-copybutton==0.5.2
     # via -r requirements.in
-sphinx-design==0.6.0
+sphinx-design==0.6.1
     # via -r requirements.in
-sphinx-tags==0.3.1
+sphinx-tags==0.4
     # via -r requirements.in
 sphinxcontrib-applehelp==2.0.0
     # via sphinx

@@ -1,4 +1,4 @@
-pydata-sphinx-theme==0.15.3
-sphinx-design==0.6.0
-sphinx-tags==0.3.1
+pydata-sphinx-theme==0.15.4
+sphinx-design==0.6.1
+sphinx-tags==0.4
 sphinx_copybutton==0.5.2
