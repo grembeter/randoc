@@ -14,9 +14,9 @@ babel==2.16.0
     #   sphinx
 beautifulsoup4==4.12.3
     # via pydata-sphinx-theme
-certifi==2024.8.30
+certifi==2024.12.14
     # via requests
-charset-normalizer==3.3.2
+charset-normalizer==3.4.1
     # via requests
 docutils==0.21.2
     # via
@@ -26,11 +26,11 @@ idna==3.10
     # via requests
 imagesize==1.4.1
     # via sphinx
-jinja2==3.1.4
+jinja2==3.1.5
     # via sphinx
-markupsafe==2.1.5
+markupsafe==3.0.2
     # via jinja2
-packaging==24.1
+packaging==24.2
     # via
     #   pydata-sphinx-theme
     #   sphinx
@@ -47,7 +47,7 @@ snowballstemmer==2.2.0
     # via sphinx
 soupsieve==2.6
     # via beautifulsoup4
-sphinx==8.0.2
+sphinx==8.1.3
     # via
     #   pydata-sphinx-theme
     #   sphinx-copybutton
@@ -73,5 +73,5 @@ sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 typing-extensions==4.12.2
     # via pydata-sphinx-theme
-urllib3==2.2.3
+urllib3==2.3.0
     # via requests
